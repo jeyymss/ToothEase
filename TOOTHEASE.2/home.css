@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    padding-top: 100px;
+    background-color: #EDEDED;
+    overflow-x:hidden;
+}
+
+/* Section styles */
+.section {
+    padding: 100px 50px;
+    min-height: 100vh; /* Ensures each section takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding: 0 50px; /* Optional horizontal padding */
+}
+
+#welcome .clinic-pic{
+    position: absolute;
+    right: -350px;
+    top: 0px;
+    z-index: -1;
+}
+
+#welcome img {
+    width: 1600px;
+    height: 1200px;
+    object-fit: cover;
+}
+
+.Welcome-deets {
+    position: relative; /* Position relative to its normal position */
+    top: -125px;
+    left: -700px; /* Adjust this value to move it to the left */
+    z-index: 1; /* Ensure it appears above the image */
+}
+
+.Welcome-deets h1 {
+    font-size: 35px;
+}
+
+.Welcome-deets p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.Welcome-deets button {
+    margin-top: 35px;
+    border-style: none;
+}
+
+.Welcome-deets a {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+#bookAppoint a{
+    background-color: #0578A5;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 1px 3px #0578A5, 0 2px 6px grey;
+}
+
+#aboutUs a{
+    background-color: white;
+    color: #0578A5;
+    font-weight: 500;
+    margin-left: 15px;
+    box-shadow: 0 1px 3px grey, 0 2px 6px white;
+}
+
+.Welcome-deets button:hover {
+    transform: translateY(-5px); /* Change the Y-axis translation for both buttons */
+    transition: transform 0.5s ease; /* Apply transition to both transform */
+}
+
+.Welcome-deets #bookAppoint a:hover {
+    box-shadow: 2px 2px 10px 1px #02658b;
+}
+
+.Welcome-deets #aboutUs a:hover {
+    box-shadow: 2px 2px 10px 1px grey;
+}
+
+#appointments {
+    
+}
+
+#clinics {
+    
+}
+
+#about {
+    
+}
+
+#contact {
+    
+}
+
+/* Footer styles */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>ToothEase | Homepage</title>
+            <link rel="stylesheet" href="home.css">
+            <link rel="stylesheet" href="nav-bar.css">
+            <link rel="shortcut icon" type="x-icon" href="/pics/logo.png" sizes="64x64">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+            <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" class="logo-img" alt="ToothEase Logo">
+                <a href="#" class="brand-name">ToothEase</a>
+            </div>
+        
+            <nav>
+                <a href="#welcome">Home</a>
+                <a href="#appointments">Appointments</a>
+                <a href="#clinics">Clinics</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#book-now">BOOK NOW</a>
+                <div class="separator"></div>
+                
+                <!-- Profile dropdown container -->
+                <div class="profile-container">
+                    <i class="fa-solid fa-user profile-icon"></i>
+                    <div class="profile-dropdown" id="subMenu">
+                        <a href="/LOGIN PAGE/index.html">Logout</a>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+
+        <section id="welcome" class="section">
+            <div class="clinic-pic">
+                <img src="clinic.png">
+            </div>
+
+            <div class="Welcome-deets">
+                <h1>Discover clinics, explore services, <br>and book appointments easily!</h1>
+                <p>Explore top clinics, view their services, and <br> book your appointments all in one place.</p>
+                <button id="bookAppoint"><a href="/APPOINTMENT PAGE/patient-appointments.html">Book Appointment Now</a></button>
+                <button id="aboutUs"><a href="/ABOUT PAGE/patient-aboutpage.html">About Us</a></button>
+            </div>
+            
+        </section>
+    
+        <section id="appointments" class="section">
+            <h2>Appointments</h2>
+            <p>Schedule your next dental appointment with ease.</p>
+        </section>
+    
+        <section id="clinics" class="section">
+            <h2>Clinics</h2>
+            <p>Find the best dental clinics near you.</p>
+        </section>
+    
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Learn more about our mission to make dental care more accessible.</p>
+        </section>
+    
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for more information or support.</p>
+        </section>
+    
+        <footer class="footer">
+            <p>&copy; 2024 ToothEase. All rights reserved.</p>
+        </footer>
+    
+        <script src="home.js"></script>
+        
+    </body>
+</html>
